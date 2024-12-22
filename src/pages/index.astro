@@ -4,19 +4,21 @@ import ContextAlert from '../components/ContextAlert.astro';
 import Markdown from '../components/Markdown.astro';
 
 const explainer = `
-An Astro website can go way beyond static pages - on the right platform.
-
-Netlify supports not only [Streaming SSR](https://docs.astro.build/en/guides/server-side-rendering/#html-streaming) and fast [Edge Middleware](https://docs.astro.build/en/guides/middleware/), but also [on-demand revalidation](https://www.netlify.com/blog/cache-tags-and-purge-api-on-netlify/) and [stale-while-revalidate](https://www.netlify.com/blog/swr-and-fine-grained-cache-control/). 
-Any page or data can be rebuilt only when needed, without site visitors ever getting a performance hit.
 `;
 ---
 
 <Layout title="Doğanın Sesi">
     <ContextAlert class="mb-4" />
-    <h1 class="mb-10">Doğanın Sesi Projesi</h1>
-    <h2 class="mb-10">Soma Bilim ve Sanat Merkezi</h2>
+    <h1 class="mb-10">Soma Bilim ve Sanat Merkezi</h1>
+    <h2 class="mb-10">Doğanın Sesi Projesi</h2>
     <Markdown content={explainer} class="text-lg mb-10" />
+    <p class="mb-4">
+       Sanayi Devrimi ile birlikte üretim süreçleri makineleşmeye başlamış ve bu makineleşmenin enerji ihtiyacını karşılamak amacıyla fosil yakıt tüketimi, tarihte eşi görülmemiş bir şekilde artmıştır. İnsan nüfusunda büyük bir patlama yaşanmış ve bu durum, doğal kaynakların bilinçsiz ve hızlı bir şekilde tüketilmesine neden olmuştur. Bu süreç, başta küresel ısınma ve iklim değişikliği olmak üzere birçok çevre sorununu beraberinde getirmiştir. Küresel iklim değişikliğinin etkilendiği birçok farklı faktör bulunmaktadır ve etkilenen faktörlerin başında ise canlılar gelmektedir. İklim değişikliği sürecinde canlıların yaşam alanları tahrip olmuş, biyoçeşitlilikte dramatik bir azalma meydana gelmiştir. Bu yüzden bu tür zararların önüne geçebilmek ve sürdürülebilir çevre bilinci oluşturabilmek için bütüncül bir yaklaşımla küçük yaşlardan başlayarak doğa eğitimine önem verilmelidir. 
+    </p>
+    <p class="mb-4">
+        Doğa eğitiminde benimsenecek yaklaşım çok önemlidir. Çocukların iklim değişikliği sürecini derinlemesine anlamlandırabilmeleri için doğa eğitimi sanat, felsefe ve canlı bilimlerini kapsayacak şekilde planlanmalıdır. Kaliteli bir doğa eğitimi, çocukların doğayla etkileşimini artırarak, onlarda çevre bilinci ve sürdürülebilirlik anlayışı geliştirir. Doğada yapılan etkinlikler, çocukların doğayı daha iyi anlamalarına ve çevre sorunlarına karşı duyarlı olmalarına yardımcı olur. Tüm bunların ışığında bu projenin amacı; Manisa'daki ortaokul öğrencilerini kapsayan doğa kampı ile, öğrencilerin iklim değişikliğinin etkilerini deneyimsel olarak öğrenmelerini, doğayla etkileşimlerini artırarak çevreye duyarlı bireyler haline gelmelerini ve bu bilinci çevrelerine yaymalarını sağlamaktır. Projenin hedef kitlesi Manisa ili içerisinde yer alan 36 ortaokul 7.sınıf öğrencileridir.
+    </p>
     <p class="mb-8">
-        <a href="https://docs.netlify.com/frameworks/astro/" class="btn btn-lg btn-primary sm:btn-wide">Read the Docs</a>
+        Proje katılımcıları il, ilçe ve köy ortaokulları öğrencileri (18 kişi) ve özel yetenekli öğrenciler (18 kişi) arasından seçilecektir. Proje ekibinde 1 yürütücü, 9 eğitmen ve 5 rehber olmak üzere 15 kişi yer almaktadır.  Katılımcılar; Manisa ve İzmir illerinde bulunan Spil Dağ Milli Parklar, Sevişler Baraj Gölü, Kozak Yaylası ve Kırkağaç Çam Koruluk Alanın da ekosistemler, bitkiler, böcekler, ağaçlar, ormanlar, kuşlar, balıklar, sanatsal, felsefi çalışmalar ile ilgili, uygulamalı eğitim alacaklardır. Proje sonunda, öğrencilerin çevresel bilgi ve becerilerini gerçek hayatla bütünleştirmelerini ve çevrelerindeki insanları bilinçlendirmelerini beklenmektedir.
     </p>
 </Layout>
